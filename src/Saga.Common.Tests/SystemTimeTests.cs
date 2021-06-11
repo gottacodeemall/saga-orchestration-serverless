@@ -9,6 +9,7 @@ namespace Saga.Common.Tests
         [Fact]
         public void Current_date_and_time_should_be_valid()
         {
+            // Test
             DateTime currentDateTime = SystemTime.Now;
             Assert.NotEqual(DateTime.MinValue, currentDateTime);
         }
